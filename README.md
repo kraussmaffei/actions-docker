@@ -2,7 +2,8 @@
 
 An action to publish docker images
 
-## Usage 
+## Usage
+
 ```yaml
   publish-docker-image:
     uses: kraussmaffei/actions-docker/.github/workflows/publish.yml@main
