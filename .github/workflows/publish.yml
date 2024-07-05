@@ -81,6 +81,7 @@ jobs:
           file: ${{ inputs.docker-file }}
           push: true
           sbom: false
+          provenance: false
           build-args: |
             PYTHON_PACKAGE=${{ env.REPOSITORY_NAME }}==${{ inputs.docker-image-version-tag }}
           tags: |
